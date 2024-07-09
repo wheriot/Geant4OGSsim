@@ -1,0 +1,32 @@
+/snap/clion/284/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/284/bin/ninja/linux/x64/ninja -G Ninja -S /media/will/OtherDrive/G4_OGS_V1 -B /media/will/OtherDrive/G4_OGS_V1/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for Root...
+CMake Error at FindROOT.cmake:30 (MESSAGE):
+  ROOT not installed in the searchpath and ROOTSYS is not set.  Please
+
+   set ROOTSYS or add the path to your ROOT installation in the Macro FindROOT.cmake in the
+   subdirectory cmake/modules.
+Call Stack (most recent call first):
+  CMakeLists.txt:5 (include)
+
+
+-- Configuring incomplete, errors occurred!

@@ -1,0 +1,10 @@
+#/control/verbose 0
+/tracking/verbose 0
+/run/verbose 2
+# enable MT when you compile Geant during the cmake step if you want to use
+# multithreading
+#/run/numberOfThreads 6
+/run/useMaximumLogicalCores
+/run/initialize
+/run/printProgress 100000
+/run/beamOn 1000000
